@@ -1,0 +1,37 @@
+body {
+  width: 100%;
+}
+
+nav {
+  background-color: lightblue;
+}
+
+.background {
+  width: 100%;
+  background-color: solid blue;
+}
+.columns {
+  text-align: center;
+}
+
+
+.personal {
+  width: 30%;
+}
+
+
+.column-head {
+  color: white;
+  background-color: #4D9258;
+}
+.price {
+}
+.features {
+  background-color: #F7F7F7;
+  border-style: 1px #DFDFDF;
+
+}
+.button {
+  border-radius: 40px;
+  /*border: 1px #DFDFDF;*/
+}
