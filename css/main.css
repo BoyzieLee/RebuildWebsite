@@ -1,5 +1,6 @@
 body {
   width: 100%;
+  font-family: 'Archivo Narrow', sans-serif;
 }
 
 nav {
@@ -8,12 +9,15 @@ nav {
 }
 
 .background {
+  margin: auto;
   margin-top: 2%;
   max-width: 100%;
   /*background-color: solid blue;*/
 }
 
 .bg-image {
+  /*max-width: 100%;*/
+  background-size: cover;
   height: 300px;
   background-image: url(../images/tree.jpg);
   background-repeat: no-repeat;
@@ -23,8 +27,8 @@ h2 {
   margin: 0;
   font-size: 30px;
   position: absolute;
-  top: 40%;
-  left: 35%;
+  top: 150px;
+  left: 40%;
   color: white;
   text-align: center;
   text-shadow: black;
@@ -79,7 +83,7 @@ h2 {
 }
 .features {
   margin-top: 0;
-  padding: 5%;
+  padding-top: 2%;
   padding-left: 0;
   padding-right: 0;
   border-style: solid;
@@ -92,6 +96,7 @@ h2 {
   border-bottom-style: solid;
   border-bottom-color: #DFDFDF;
   border-width: 2px;
+  padding-bottom: 4%;
 }
 
 .button {
