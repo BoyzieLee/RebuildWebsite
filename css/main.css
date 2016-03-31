@@ -1,7 +1,5 @@
 body {
   width: 100%;
-  /*overflow: hidden;*/
-
 }
 
 nav {
@@ -12,7 +10,7 @@ nav {
 .background {
   margin-top: 2%;
   max-width: 100%;
-  background-color: solid blue;
+  /*background-color: solid blue;*/
 }
 
 .bg-image {
@@ -21,44 +19,84 @@ nav {
   background-repeat: no-repeat;
 }
 
-.main-dody {
+h2 {
+  margin: 0;
+  font-size: 30px;
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  color: white;
   text-align: center;
-  background-color: lightblue;
+  text-shadow: black;
+  /*background-color: red;*/
+}
+
+.main-dody {
+  margin: auto;
+  text-align: center;
+  /*background-color: lightblue;*/
   width: 90%;
 }
-.columns {
 
-}
 .personal {
   width: 30%;
   float: left;
   margin-left: 2%;
+  background-color: #4D9258;
+
 }
 .small-business {
   width: 30%;
   float: left;
   margin-left: 2%;
+  background-color: #2D4A81;
+
 }
 .Enterprise {
   width: 30%;
   float: left;
   margin-left: 2%;
   margin-right: 2%;
-}
-.column-head {
-  color: white;
-  background-color: #4D9258;
-}
-.price {
-}
-.features {
-  background-color: #F7F7F7;
-  border-style: 1px #DFDFDF;
+  background-color: #111111;
 
 }
+
+.plan {
+  margin: 0;
+  padding: 0;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  list-style: none;
+  text-align: center;
+  /*background-color: #4D9258;*/
+  color: white;
+}
+.price {
+  font-size: 50px;
+}
+.month {
+  color: #CBCBCB;
+}
+.features {
+  margin-top: 0;
+  padding: 5%;
+  padding-left: 0;
+  padding-right: 0;
+  border-style: solid;
+  border-top: none;
+  background-color: #F7F7F7;
+  border-color: #DFDFDF;
+  border-width: 2px;
+}
+.features p {
+  border-bottom-style: solid;
+  border-bottom-color: #DFDFDF;
+  border-width: 2px;
+}
+
 .button {
   border-radius: 40px;
-  /*border: 1px #DFDFDF;*/
+  border: 1px #DFDFDF;
 }
 
 .Paragraphs {
