@@ -1,25 +1,50 @@
 body {
   width: 100%;
+  /*overflow: hidden;*/
+
 }
 
 nav {
-  background-color: lightblue;
+  color: solid grey;
+  padding-left: 2%;
 }
 
 .background {
-  width: 100%;
+  margin-top: 2%;
+  max-width: 100%;
   background-color: solid blue;
 }
-.columns {
-  text-align: center;
+
+.bg-image {
+  height: 300px;
+  background-image: url(../images/tree.jpg);
+  background-repeat: no-repeat;
 }
 
+.main-dody {
+  text-align: center;
+  background-color: lightblue;
+  width: 90%;
+}
+.columns {
 
+}
 .personal {
   width: 30%;
+  float: left;
+  margin-left: 2%;
 }
-
-
+.small-business {
+  width: 30%;
+  float: left;
+  margin-left: 2%;
+}
+.Enterprise {
+  width: 30%;
+  float: left;
+  margin-left: 2%;
+  margin-right: 2%;
+}
 .column-head {
   color: white;
   background-color: #4D9258;
@@ -34,4 +59,21 @@ nav {
 .button {
   border-radius: 40px;
   /*border: 1px #DFDFDF;*/
+}
+
+.Paragraphs {
+  margin: 5%;
+  text-align: left;
+  /*display: inline;*/
+}
+
+.para {
+  padding: 2%;
+  max-width: 45%;
+  float: left;
+}
+footer {
+  display: block;
+  /*color: white;*/
+  background-color: black;
 }
