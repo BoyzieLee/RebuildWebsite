@@ -9,7 +9,9 @@ body {
   padding: 0;
 }
 nav {
+  margin-top: .5%;
   padding-left: 2%;
+  margin-bottom: 0;
 }
 nav a {
   margin-right: 3%;
@@ -22,14 +24,14 @@ nav a:hover {
 }
 .background {
   margin: auto;
-  margin-top: 2%;
+  margin-top: 1%;
   max-width: 100%;
 }
 
 .bg-image {
   /*max-width: 100%;*/
   background-size: cover;
-  height: 310px;
+  height: 318px;
   background-image: url(../images/tree.jpg);
   background-repeat: no-repeat;
 }
@@ -135,15 +137,21 @@ h2 {
 }
 
 .Paragraphs {
-  margin: 5%;
+  margin-top: 5%;
+  margin-left: 2%;
   text-align: left;
   /*display: inline;*/
 }
 
 .para {
   padding: 2%;
-  max-width: 45%;
+  max-width: 42%;
   float: left;
+  margin-right: 1%;
+  margin-top: 2%;
+}
+h3 {
+  letter-spacing: .25em;
 }
 footer {
   clear: both;
@@ -152,6 +160,7 @@ footer {
   text-align: center;
   background-color: black;
   margin: 0;
+  margin-top: 1%;
   padding: 0;
 }
 footer p {
