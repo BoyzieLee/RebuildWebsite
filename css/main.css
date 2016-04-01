@@ -1,31 +1,42 @@
 body {
+  margin: 0;
   width: 100%;
   font-family: 'Archivo Narrow', sans-serif;
 }
-
+.wrap {
+  margin: 0 12%;
+  border: none;
+  padding: 0;
+}
 nav {
-  color: solid grey;
   padding-left: 2%;
 }
-
+nav a {
+  margin-right: 3%;
+  text-decoration: none;
+  color: #6C6C6C;
+}
+nav a:hover {
+  color: black;
+  font-weight: bold;
+}
 .background {
   margin: auto;
   margin-top: 2%;
   max-width: 100%;
-  /*background-color: solid blue;*/
 }
 
 .bg-image {
   /*max-width: 100%;*/
   background-size: cover;
-  height: 300px;
+  height: 310px;
   background-image: url(../images/tree.jpg);
   background-repeat: no-repeat;
 }
 
 h2 {
   margin: 0;
-  font-size: 30px;
+  font-size: 42px;
   position: absolute;
   top: 150px;
   left: 40%;
@@ -36,33 +47,33 @@ h2 {
 }
 
 .main-dody {
-  margin: auto;
+  /*margin: auto;*/
+  margin-left: 12%;
   text-align: center;
   /*background-color: lightblue;*/
-  width: 90%;
+  width: 80%;
 }
 
 .personal {
-  width: 30%;
+  width: 29%;
   float: left;
   margin-left: 2%;
   background-color: #4D9258;
 
 }
 .small-business {
-  width: 30%;
+  width: 29%;
   float: left;
   margin-left: 2%;
   background-color: #2D4A81;
 
 }
 .Enterprise {
-  width: 30%;
+  width: 29%;
   float: left;
   margin-left: 2%;
   margin-right: 2%;
   background-color: #111111;
-
 }
 
 .plan {
@@ -75,15 +86,20 @@ h2 {
   /*background-color: #4D9258;*/
   color: white;
 }
+.type {
+  letter-spacing: .25em;
+}
 .price {
-  font-size: 50px;
+  font-size: 70px;
 }
 .month {
+  font-size: 20px;
   color: #CBCBCB;
+  padding-bottom: 3%;
 }
 .features {
   margin-top: 0;
-  padding-top: 2%;
+  padding-top: 1%;
   padding-left: 0;
   padding-right: 0;
   border-style: solid;
@@ -97,6 +113,8 @@ h2 {
   border-bottom-color: #DFDFDF;
   border-width: 2px;
   padding-bottom: 4%;
+  margin-bottom: 0;
+  margin-top: 2%;
 }
 
 .click {
@@ -109,9 +127,11 @@ h2 {
   background-color: white;
   /*border-radius: 40px;*/
 }
-.button {
-  border-radius: 40px;
-  /*border: 1px #DFDFDF;*/
+.click button {
+  padding: 3% 5%;
+  border-radius: 20px;
+  background-color: white;
+  border: 1px solid #DFDFDF;
 }
 
 .Paragraphs {
@@ -139,4 +159,9 @@ footer p {
 }
 footer p color {
   color: white;
+  text-decoration: underline;
+}
+footer p color:hover {
+  font-weight: bold;
+  text-decoration: none;
 }
